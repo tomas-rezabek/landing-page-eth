@@ -33,7 +33,7 @@ button:hover {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .header-logo, .header-links {
@@ -62,15 +62,13 @@ ul {
 .hero {
     background: #f7f7f7;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
     padding: 5em;
     color: #000;
 }
 
 .hero img {
     width: 500px;
-    margin: 0 auto;
 }
 
 /* Content - cards */
