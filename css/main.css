@@ -1,0 +1,152 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border: 1px solid grey;
+    border-radius: 4px;
+    background: #fff;
+    color: black;
+    padding: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f7f7f7;
+}
+
+/* Navbar section */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.header-logo, .header-links {
+    display: flex;
+    padding: 1em;
+    gap: 16px;
+    align-items: center;
+}
+
+.header-logo img {
+    vertical-align: middle;
+    padding-right: 1em; 
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Hero section */
+
+.hero {
+    background: #f7f7f7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5em;
+    color: #000;
+}
+
+.hero img {
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* Content - cards */
+
+.content {
+    text-align: center;
+    margin: 5em 0;
+}
+
+.title {
+    font-size: 48px;
+}
+
+.title, .desc {
+    margin: 1em auto;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    text-align: center;
+}
+
+.boxes img {
+    width: 300px;
+    height: 250px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 4px;
+}
+
+.boxes img:hover {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+/* Quote */
+.quote {
+    background: #f7f7f7;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10% 20%;
+    margin: 5em 0;
+}
+
+.autor {
+    text-align: right;
+}
+
+q {
+    font-size: 34px;
+}
+
+/* CTA */
+
+.cta {
+    background: #f7f7f7;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    margin: 5em 20%;
+}
+
+.cta-box {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background: #f7f7f7;
+}
